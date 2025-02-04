@@ -1,0 +1,9 @@
+{
+  "name": "Ubuntu Custom Image",
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [3000],  // امنحه المنافذ التي تريد فتحها
+  "features": {
+    "git": "latest",
+    "docker-in-docker": "latest"
+  }
+}
